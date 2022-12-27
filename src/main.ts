@@ -48,4 +48,5 @@ export const loop = ErrorMapper.wrapLoop(() => {
   // Start spawnhandler
   console.log('Spinning up SpawnHandler');
   SpawnHandler.run();
+  console.log('SpawnHandler complete')
 });
